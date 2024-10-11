@@ -92,8 +92,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="titleLabel" destination="S4D-5w-ucc" id="HJp-hy-eVZ"/>
-                        <outlet property="userIdLabel" destination="Gmg-SW-dPq" id="Wuy-8f-NWu"/>
+                        <outlet property="titleLabel" destination="S4D-5w-ucc" id="TPu-DY-nj4"/>
+                        <outlet property="userIdLabel" destination="Gmg-SW-dPq" id="0gy-Om-0Vx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HWp-AR-CTv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

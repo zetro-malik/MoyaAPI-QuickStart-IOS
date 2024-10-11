@@ -61,6 +61,13 @@ class UsersViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "UserDetailViewController") as! UserDetailViewController
+        vc.userId = users[indexPath.row].id
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
     
     
 
