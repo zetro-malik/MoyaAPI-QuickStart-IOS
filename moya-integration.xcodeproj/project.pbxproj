@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		63BF4DEF76EE49AA34F077DC /* Pods_moya_integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B539168FC3D72447C86FB605 /* Pods_moya_integration.framework */; };
 		C36B0DB52CB9657200589567 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B0DB42CB9657200589567 /* UsersViewController.swift */; };
+		C36B0DB82CB9663800589567 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B0DB72CB9663800589567 /* API.swift */; };
 		C39F1F862CB95C3E00AB7AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39F1F7D2CB95C3E00AB7AB1 /* Assets.xcassets */; };
 		C39F1F882CB95C3E00AB7AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F1F802CB95C3E00AB7AB1 /* LaunchScreen.storyboard */; };
 		C39F1F892CB95C3E00AB7AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F1F822CB95C3E00AB7AB1 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		A18606CE9077F605AACAB524 /* Pods-moya-integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moya-integration.release.xcconfig"; path = "Target Support Files/Pods-moya-integration/Pods-moya-integration.release.xcconfig"; sourceTree = "<group>"; };
 		B539168FC3D72447C86FB605 /* Pods_moya_integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moya_integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B0DB42CB9657200589567 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		C36B0DB72CB9663800589567 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C39F1F542CB957EC00AB7AB1 /* moya-integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moya-integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39F1F7C2CB95C3E00AB7AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39F1F7D2CB95C3E00AB7AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C36B0DB62CB9660500589567 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C36B0DB72CB9663800589567 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		C39F1F4B2CB957EC00AB7AB1 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		C39F1F852CB95C3E00AB7AB1 /* moya-integration */ = {
 			isa = PBXGroup;
 			children = (
+				C36B0DB62CB9660500589567 /* Network */,
 				C36B0DB32CB9653E00589567 /* View */,
 				C39F1F7C2CB95C3E00AB7AB1 /* AppDelegate.swift */,
 				C39F1F7D2CB95C3E00AB7AB1 /* Assets.xcassets */,
@@ -221,6 +232,7 @@
 				C36B0DB52CB9657200589567 /* UsersViewController.swift in Sources */,
 				C39F1F8B2CB95C3E00AB7AB1 /* SceneDelegate.swift in Sources */,
 				C39F1F8C2CB95C3E00AB7AB1 /* ViewController.swift in Sources */,
+				C36B0DB82CB9663800589567 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
